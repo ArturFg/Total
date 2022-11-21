@@ -1,6 +1,13 @@
 ﻿Console.WriteLine("Hello, World!"); 
  
-Console.Write("Введите число, что бы зафиксировать размер массива: "); 
+string[] arr = {"Fhneh", "Vi", "Trg", "Yiop"};
+for (int i = 0; i <= 3; i++)
+{
+    int a = arr[i].Length; 
+    Console.WriteLine(a); 
+}
+
+/*Console.Write("Введите число, что бы зафиксировать размер массива: "); 
 int length = Convert.ToInt32(Console.ReadLine());  
  
 int[] arrays = new int[length]; 
@@ -31,4 +38,4 @@ for (int i = 1; i < arrays.Length - 1; i++)
     else Console.Write($"");
 } 
 if(arrays[arrays.Length - 1] > 0) Console.Write($"{arrays[arrays.Length - 1]}]");
-else Console.Write($"]");
+else Console.Write($"]");*/
